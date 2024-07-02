@@ -1,4 +1,5 @@
 # Incident Response Documentation on Findings: Security Analyst
+<br>
 
 <p align="center">
 <img src="https://i.imgur.com/PlfjJKH.png" height="80%" width="80%" alt="9"/><br />
@@ -132,8 +133,12 @@ Nevertheless, the incident raises apprehensions regarding potential privilege es
 This incident is classified as a potential privilege escalation incident according to the NIST 800-61 framework.
 
 The severity of the incident will depend on the level of access obtained by the user and the sensitivity of the information accessed.
+
 <br>
+
 <br>
+
+
 
 
 ## 3️⃣ Incident ID: 82 - Brute Force ATTEMPT - Linux Syslog
@@ -144,23 +149,39 @@ The severity of the incident will depend on the level of access obtained by the 
 
 #### 📝 Incident Summary
 
-On January 6, 2023, at 20:55:35 UTC, Azure Sentinel detected a brute force attack attempt on a Linux system with IP address 61.177.172.160. This IP address has been involved in several incidents, triggering multiple alerts.
+On January 6, 2023, at 20:55:35 UTC, Azure Sentinel detected a brute force attack attempt on a Linux system with IP address 61.177.172.160.
+
+This IP address has been involved in several incidents, triggering multiple alerts.
+<br>
+<br>
+
 
 #### 🔍 Impact Assessment
 
 The account targeted by the brute force attack was local to the Linux machine.
+<br>
+<br>
+
 
 #### 🛠️ Initial Response Actions
 
 1. Verify the authenticity of the alerts and reports.
+
 2. Reset the password for the compromised user account.
+
 3. Lock down Network Security Groups (NSGs) to prevent further unauthorized access.
+
 4. Investigate other incidents triggered by IP address 114.132.168.163 to assess the scope of the attack.
+<br>
+<br>
+
 
 #### 🛡️ Containment and Recovery
 
 1. Quarantine the infected workstation and any other systems that may have been impacted.
+
 2. Restore the infected workstation to a known clean state.
+
 3. Conduct a thorough review of logs and security measures to prevent similar incidents.
 <br>
 <br>
@@ -169,20 +190,36 @@ The account targeted by the brute force attack was local to the Linux machine.
 ## 4️⃣ Incident ID: 9 - Malware Detected
 <br>
 
-**Incident Summary**
+#### 📝 Incident Summary
 
 On January 5, 2024, at 18:05:12 UTC, Malware was detected on workstation “windows-vm01”, potentially compromising the confidentiality, integrity, availability of the system and data.
+<br>
+<br>
 
-**Initial Response Actions**
+
+#### 🛠️ Initial Response Actions
 
 1. Verify the authenticity of the alert or report.
-2. Identify the primary user account of the affected system, if applicable.
-3. Notify affected stakeholders and provide guidance on how to protect themselves.
-4. Run a full system scan using an up-to-date antivirus software to identify and remove the malware.
-5. If the malware cannot be removed or significant damage is suspected, shut down the workstation and disconnect it from the network.
 
-**Containment and Recovery**
+2. Identify the primary user account of the affected system, if applicable.
+
+3. Notify affected stakeholders and provide guidance on how to protect themselves.
+
+4. Run a full system scan using an up-to-date antivirus software to identify and remove the malware.
+
+5. If the malware cannot be removed or significant damage is suspected, shut down the workstation and disconnect it from the network.
+<br>
+<br>
+
+
+#### 🛡️ Containment and Recovery
 
 1. Quarantine the infected workstation and any other potentially impacted systems.
+
 2. Restore the workstation to a known clean state through system imaging or clean installation.
+
 3. Strengthen security measures to prevent future malware incidents.
+<br>
+<br>
+
+
