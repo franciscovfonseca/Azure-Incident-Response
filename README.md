@@ -2,7 +2,7 @@
 <br>
 
 <p align="center">
-<img src="https://i.imgur.com/PlfjJKH.png" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Azure-Incident-Response/assets/172988970/f27fcdc2-6228-4841-b80c-3b55b05ca544" height="100%" width="100%" alt="9"/><br />
 <br>
 
 ## Introduction
@@ -31,9 +31,9 @@ The document comprises ***Overviews***, ***Evaluations of Consequences***, ***Re
 <br>
 
 <p align="center">
-<img src="https://imgur.com/umCFfK8.png" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Azure-Incident-Response/assets/172988970/0a54ee30-7924-4f87-adf3-3044c497d2aa" height="100%" width="100%" alt="9"/><br />
   <p align="center">
-<img src="https://imgur.com/WqIQn0e.png" height="30%" width="30%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Azure-Incident-Response/assets/172988970/9009d9b3-1e95-4601-b0fc-88201c7ad058" height="700%" width="50%" alt="9"/><br />
 <br>
 <br>
 
@@ -94,7 +94,7 @@ The occurrence has been categorized as a verified security breach because of the
 <br>
 
 <p align="center">
-<img src="https://imgur.com/74NTNSs.png" height="70%" width="70%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Azure-Incident-Response/assets/172988970/e900151b-f32d-4b17-bb0e-5e5fdb610eb2" height="100%" width="100%" alt="9"/><br />
 <br>
 <br>
 
@@ -145,7 +145,7 @@ The severity of the incident will depend on the level of access obtained by the 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/9jD6v1h.png" height="70%" width="70%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Azure-Incident-Response/assets/172988970/496eec15-4e15-4d10-8324-f8a76f29c323" height="100%" width="100%" alt="9"/><br />
 
 #### 📝 Incident Summary
 
