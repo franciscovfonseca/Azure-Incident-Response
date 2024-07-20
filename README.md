@@ -1,4 +1,7 @@
+<br>
+
 # Incident Response Documentation on Findings: Security Analyst
+
 <br>
 
 <p align="center">
